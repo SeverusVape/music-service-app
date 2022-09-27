@@ -8,7 +8,7 @@ module.exports = {
                 lightgray: "#535353",
                 darkgray: "#212121",
                 black: "#121212",
-                green: "1DB954",
+                green: "#1DB954",
             },
             animation: {
                 slideup: "slideup 1s ease-in-out",
