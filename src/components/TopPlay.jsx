@@ -62,6 +62,7 @@ const TopPlay = () => {
     });
 
     const topPlays = data?.slice(0, 5);
+    const topSingers = data?.slice(0, 10);
 
     const handlePauseClick = () => {
         dispatch(playPause(false));
@@ -124,10 +125,10 @@ const TopPlay = () => {
                     modules={[FreeMode]}
                     className="mt-4"
                 >
-                    {topPlays?.map((song, i) => (
+                    {topSingers?.map((song, i) => (
                         <SwiperSlide
                             key={song?.key}
-                            style={{ width: "25%", height: "auto" }}
+                            style={{ width: "20%", height: "auto" }}
                             className="shadow-lg rounded-full animate-slideright"
                         >
                             <Link to={`/artists/${song?.artists[0].adamid}`}>
