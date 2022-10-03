@@ -9,7 +9,9 @@ const RelatedSongs = ({
     artistId,
 }) => (
     <div className="flex flex-col">
-        <h1 className="text-stone-200 font-bold text-3xl">Related Songs:</h1>
+        <h1 className="text-stone-200 font-bold text-3xl mt-7">
+            Related Songs:
+        </h1>
         <div className="mt-6 w-full flex flex-col">
             {data?.map((song, i) => (
                 <SongBar
