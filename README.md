@@ -3,7 +3,7 @@
 ## Tools that was used
 
 -   Front-end : [React](https://reactjs.org/), [React Redux](https://react-redux.js.org/)
--   CSS Framework: [TAILWIND CSS](https://tailwindcss.com/)
+-   CSS Framework: [Tailwind CSS](https://tailwindcss.com/)
 -   APIs : [RapidAPI(Shazam Core API)](https://rapidapi.com/), [GEO API](https://geo.ipify.org/docs)
 -   Buid Tool: [VITE](https://vitejs.dev/)
 
